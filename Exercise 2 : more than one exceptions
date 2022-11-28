@@ -1,0 +1,12 @@
+try:
+    num1 = int(input("Enter an integer number      : "))
+    num2 = int(input("Enter another integer number : "))
+
+    result = num1/num2
+
+    print("Result of the division is: ", result)
+
+except ZeroDivisionError:
+    print("Division by zero")
+except ValueError:
+    print("The number must be an integer")
